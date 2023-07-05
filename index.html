@@ -13,16 +13,16 @@
             </div>
         <div class="controls">
             <div class="button1">
-                <button class="black">Black</button>
+                <button onclick="choiceColor('black')" class="black">Black</button>
             </div>
             <div class="button2">
-                <button class="rainbow">Rainbow</button>
+                <button onclick="choiceColor('random')" class="rainbow">Rainbow</button>
             </div>
             <div class="button3">
-                <button class="erase">Erase</button>
+                <button onclick="choiceColor('white')" class="erase">Erase</button>
             </div>
             <div class="button4">
-                <button class="clear">Clear</button>
+                <button onclick="reset()" class="clear">Clear</button>
             </div>
             <div class="changeSize">
                 <input type="text" value="16" onchange="changeSize(this.value)" placeholder="16"></button>
