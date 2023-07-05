@@ -4,8 +4,15 @@
     margin: 0;
     font-family: sans-serif;
 }
+#screen{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 1px solid black;
+    margin: 0 auto;
+}
 
-#game{
+/* #game{
     border: 20px solid red;
     width: 500px;
     height:400px;
@@ -37,4 +44,5 @@ button{
 #screen{
     width: 100%;
     height: 100%;
-}
+    display: grid;
+} */
